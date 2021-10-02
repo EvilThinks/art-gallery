@@ -1,0 +1,72 @@
+[
+    {
+        "filterName": "Period",
+        "queryName": "period",
+        "items": [
+            {
+                "name": "Past",
+                "id": "past"
+            },
+            {
+                "name": "Current",
+                "id": "current"
+            },
+            {
+                "name": "Upcoming",
+                "id": "upcoming"
+            }
+        ]
+    },
+    {
+        "filterName": "Artist",
+        "queryName": "artist",
+        "items": [
+            {
+                "name": "Ghada Amer & Reza",
+                "id": "1",
+                "count": 23
+            },
+            {
+                "name": "Beom Kim",
+                "id": "2",
+                "count": 20
+            },
+            {
+                "name": "Tan Swie Hian",
+                "id": "3",
+                "count": 15
+            },
+            {
+                "name": "Navin Rawanchaikul",
+                "id": "4",
+                "count": 10
+            },
+            {
+                "name": "Donald Sultan",
+                "id": "5",
+                "count": 17
+            }
+        ]
+    },
+    {
+        "filterName": "Type",
+        "queryName": "t",
+        "items": [
+            {
+                "name": "default",
+                "id": "1",
+                "count": 23
+            },
+            {
+                "name": "offensive",
+                "id": "2",
+                "count": 20
+            },
+            {
+                "name": "defensive",
+                "id": "3",
+                "count": 15
+            }
+        ]
+    }
+]

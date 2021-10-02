@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  backend:
+    image: glebgudz/art-gallery-backend
+    environment:
+      - NODE_ENV=production
+      - MONGO_URI_L=mongodb+srv://testcrypto:qwerty123
+      - MONGO_URI_R=cluster0.eyyi8.mongodb.net/app?retryWrites=true&w=majority
+      - PORT=80
+    deploy:
+      resources:
+        limits:
+          memory: 900M
+    ports:
+      - 80:80

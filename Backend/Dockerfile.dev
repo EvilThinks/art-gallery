@@ -1,0 +1,8 @@
+FROM node:14
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install 
+RUN npm install -g nodemon
+COPY . /usr/src/app
+ENV ROOT_FOLDER_PATH=/usr/src/app
+CMD  ["nodemon","-L","/usr/src/app/src/app.js"]

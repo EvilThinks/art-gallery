@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Adults",
+        "price": "$25"
+    },
+    {
+        "title": "Seniors (55+)",
+        "price": "$10"
+    },
+    {
+        "title": "Students (12 and up)",
+        "price": "$10"
+    },
+    {
+        "title": "Members",
+        "price": "Free"
+    },
+    {
+        "title": "Children (12 and under)",
+        "price": "Free"
+    },
+    {
+        "title": "Military families",
+        "price": "Free"
+    }
+]
